@@ -1,0 +1,18 @@
+REQUERIMIENTO:
+Registro de los deberes:
+
+Actualmente se hacen a través de modales. Esos modales actualmente sirven para cada uno de los tipos de deberes y son accesibles mediante cada subtab de cada deber y también mediante las celdas de la fila de tareas del subtab HorarioSemanal.
+
+Registro de deberes desde subtab Horario Semanal.
+Deseo que cuando se cree un deber desde horario semanal:
+Se tome la fecha de la celda desde la que se crea el deber.
+Al guardar siga donde se quedó en el subtab Horario Semanal, en la semana desde donde se creó el deber.
+Entiendo que el modal está “enquistado” en el subtab del deber correspondiente, no “flota”. Pero el usuario está actualizando el horario semanal entonces, necesita volver fácilmente para seguir.
+Debemos pensar en una salida, pero no enredar el código “haciéndolo por hacer”. Debemos pensar en una salida limpia, sin generar conflicto ni demasiadas complicaciones.
+
+Una opción sería un segmento nuevo de código para ese modal; toma el modelo del modal enquistado en cada deber y se hace otro que no esté enquistado que interactúe con Horario Semanal.
+
+Y así como se puede crear un deber desde Horario Semanal, se tendría que poder desde el Calendario.
+Este nuevo “modal no enquistado” permitirá crear un nuevo deber desde otros subtab y permitirá volver al subtab del que vino luego de guardar.
+
+Esquema: He planteado un esquema adjunto al Knowledge como “Registro Deberes.pdf”
