@@ -6,6 +6,3 @@ Pregúntame si tienes alguna duda o necesitas información; pero no me preguntes
 
 Programación modulada:
 Seguir los lineamientos de Standard. Ver en Knowledge en repositorio PROMPTPRE
-
-REQUERIMIENTO:
-Remodular los códigos a presentar, cumpliendo los lineamientos del protocolo del documento Standard V5.
