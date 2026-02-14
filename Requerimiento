@@ -1,9 +1,33 @@
 REQUERIMIENTO:
-Actualización:
+Actualizaciones PBE control
 
-Tengo un problema, las actualizaciones no se reflejan en el momento en otras pestañas u otros elementos.
-En algunos casos en el propio tab no se ven o al cambiar de subtab.
+Problema: Muchos cambios no se aprecian o no afectan otros tabs, subtabs, grid, desplegables y demás, incluso en algunos casos ni en la misma página que se está haciendo el cambio.
+Si se refrescan ciertos elementos por funciones puntuales que se han colocado.
+Y solo carga la información completa correctamente cuando el usuario cuando vuelve a entrar en su cuenta.
 
-Por ejemplo:
-Si agrego un curso, una clase en el horario de clase, una actividad o deber en el horario semanal, un deber en el tab de deberes, un deber en el Calendario, etc, no se refleja al momento en otros lados.
-No se ven las nuevas opciones en los desplegables, horarios, calendarios, etc.
+Relación de actualizaciones necesarias ¿Qué debe actualizarse según determinadas acciones?
+
+Un nuevo curso o edición:
+Todos los desplegables que llaman a los cursos.
+
+Nueva clase: Al crear una nueva clase en Horario de Clase o editarlo.
+Horario Semanal de todas las semanas.
+
+Horario Semanal: Al crear un nuevo deber o una nueva actividad o editarlo.
+Deberes.
+Calendario.
+
+Calendario: Al crear un nuevo deber o editarlo.
+Deberes
+Horario Semanal.
+
+Deberes: Al crear un nuevo deber o editarlo.
+Subtab Todos los deberes
+Horario Semanal.
+Calendario.
+
+
+
+
+
+
