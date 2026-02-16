@@ -7,8 +7,9 @@ Actualice lo que se ve en la pantalla donde se esté.
 Se actualicen los desplegables relacionados
 Se actualicen otras pantallas, tabs y subtabs.
 
+Problema:
 Eso se ha podido lograr de forma parcial, pero no actualiza cuando:
 
-Si desde Horario Semanal se crea un nuevo deber o desde Calendario, este no se refleja en los subtabs del tab Deberes.
+Si desde Horario Semanal se crea un nuevo deber o desde Calendario, este no se refleja en los subtabs del tab Deberes a menos que salga y vuelva entrar a la sesión.
 
 Quizá sería necesario que al entrar al tab deberes o aun subtab de este, se actualice.
